@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
+    "start": "node src/server.js",
     "test": "mocha",
     "seed": "node src/seed.js"
   },

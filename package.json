@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "mocha",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "dot": "^1.1.3",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.3.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "mongoose-sequence": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

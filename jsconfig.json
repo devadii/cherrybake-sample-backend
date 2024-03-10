@@ -1,0 +1,6 @@
+// {
+//     "compilerOptions": {
+//         "moduleResolution": "node"
+//     },
+//     "include": ["src", "config/dbConn.js", "test", "server.js"]
+// }

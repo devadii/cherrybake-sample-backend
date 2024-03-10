@@ -45,4 +45,4 @@ mongoose.connection.on('error', err => {
     'mongoErrLog.log')
 })
 
-export { app }
+export default app
